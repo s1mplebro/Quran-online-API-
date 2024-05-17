@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 5.1%;
+    gap:30px;
+    
+}
+
+a{
+    color:  #000;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.time{
+    margin-top: 30px;
+    border:1px solid black;
+    color:green;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.active{
+    text-decoration: underline 1px solid  green;
+}

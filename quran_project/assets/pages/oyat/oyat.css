@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__oyat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 5%;
+    text-align: justify;
+}
+body{
+    text-align: center;
+}
+p{
+    padding-bottom: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 5.1%;
+    gap:30px;
+    
+}
+a{
+    color:  #000;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+audio{
+    padding-bottom: 10px;
+}
+.choose{
+    padding: 15px 0 5px;
+}
+select{
+    margin-bottom: 27px;
+}
